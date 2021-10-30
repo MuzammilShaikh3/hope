@@ -1,0 +1,18 @@
+{
+    "python.pythonPath": "C:\\Users\\muzam\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3307,
+            "driver": "MySQL",
+            "name": "localhost",
+            "database": "cofo",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}
