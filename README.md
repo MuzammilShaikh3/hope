@@ -1,4 +1,9 @@
 # HOPE
+- The main purpose of "HOPE" is to
+educate & help people dealing with
+mental health & Fitness issues.
+
+
 - Login Page
 
 ![0](https://user-images.githubusercontent.com/30564975/186435269-51d093cf-26b1-40d0-8b85-4631d744584b.png)
