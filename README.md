@@ -4,6 +4,12 @@ educate & help people dealing with
 mental health & Fitness issues.
 
 
+- Home Page
+
+![image](https://user-images.githubusercontent.com/30564975/186669805-77d05312-4e45-4df0-87f0-6957790c1cd0.png)
+
+
+
 - Login Page
 
 ![0](https://user-images.githubusercontent.com/30564975/186435269-51d093cf-26b1-40d0-8b85-4631d744584b.png)
