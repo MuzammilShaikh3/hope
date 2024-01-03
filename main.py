@@ -8,10 +8,10 @@ import smtplib
 
 app = Flask(__name__, template_folder='template')
 app.secret_key = 'fdafadfqaerhgu'
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Your Password Here'
-app.config['MYSQL_DB'] = 'co'
+app.config['MYSQL_HOST'] = 'sql12.freemysqlhosting.net'
+app.config['MYSQL_USER'] = 'sql12674420'
+app.config['MYSQL_PASSWORD'] = 'fyVaeJ2Xug'
+app.config['MYSQL_DB'] = 'sql12674420'
 
 mysql = MySQL(app)
  
