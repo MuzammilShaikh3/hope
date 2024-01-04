@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Stock photo</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="/static/assets/upload/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <header>
+    <h1>Painting</h1>
+  </header>
+  
+  <div class="ways">
+    <ul>
+      <li class="active">
+        Upload
+      </li>
+      <li>
+        Link
+      </li>
+    </ul>
+  </div>
+  
+  <div class="sections">
+    
+    <section class="active">
+      <input type="text" placeholder="Title" id="title"/>
+      
+      <div class="images">
+        <div class="pic">
+          add
+        </div>
+      </div>
+      
+      
+    </section>
+
+    <section>
+      <input type="text" placeholder="Title" id="topic"/>
+      <textarea placeholder="Link" id="msg"></textarea>
+    </section>
+  
+  </div>
+  
+  <footer>
+    <ul>
+      <li><span id="reset">reset</span></li>
+      <li><span id="send">send</span></li>
+    </ul>
+  </footer> 
+  
+</div>
+<div class="notification"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="/static/assets/upload/script.js"></script>
+
+</body>
+</html>
