@@ -7,15 +7,32 @@
 <link rel="stylesheet" href="/static/assets/reg/style.css">
 
 </head>
+<style>
+    a:visited {
+      color: rgb(41, 138, 138);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+</style>
 <body>
 	<section id="sectionone" class="screen">
 		<div id="scene">
 		  <div data-depth="0.1" class="bg">
-			<img src="background.png" alt="" />
+			<img src="/static/assets/login/background.png" alt="" />
 		  </div>
 		</div>
 <!-- partial:index.partial.html -->
-<form>
+<form method="POST">
 	<div class="svgContainer">
 		<div>
 			<svg class="mySVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
@@ -109,22 +126,24 @@
 	
 	<div class="inputGroup inputGroup1">
 		<label for="email1">Name</label>
-		<input type="text" id="text" class="text" maxlength="256"/>
+		<input type="text" name="username" id="text" class="text" maxlength="256"/>
 		<span class="indicator"></span>
 	</div>
 	<div class="inputGroup inputGroup2">
 		<label for="email1">Email</label>
-		<input type="text" id="email" class="email" maxlength="256"/>
+		<input type="text" name="email" id="email" class="email" maxlength="256"/>
 		<span class="indicator"></span>
 	</div>
 	<div class="inputGroup inputGroup3">
 		<label for="password">Password</label>
-		<input type="password" id="password" class="password" />
+		<input type="password" name="password" id="password" class="password" />
 	</div>
-	<div class="msg" style="color:rgb(255, 5, 5)">{{ msg }}</div>
+	<div class="msg" style="color:rgb(28, 218, 3)">{{ msg }}</div>
 	<div class="inputGroup inputGroup4">
 		<button  id="login">Register</button> 
-	</div>	
+	</div>
+	<br>
+    <a href="{{ url_for('login') }}" >Already have an account? Login</a>	
 </form>
 	  <div data-depth="0.1" class="bg"></div>
 		<img src="background.png" alt="" />
